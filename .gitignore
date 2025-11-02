@@ -1,0 +1,111 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Pp]latforms/
+[Cc]rash[Dd]ata/
+
+# Asset store tools
+Assets/AssetStoreTools*
+
+# Unity auto-generated files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.wlt
+*.ide
+*.pyc
+*.pyo
+*.ilk
+*.ncb
+*.sdf
+*.opensdf
+*.VC.opendb
+*.VC.db
+*.ipch
+*.obj
+*.pch
+*.log
+
+# Unity generated cache
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+*.opendb.meta
+
+# Visual Studio / JetBrains
+.vs/
+.vscode/
+[Rr]iderProjects/
+*.DotSettings.user
+*.sln.dotSettings
+Assets/Plugins/Editor/JetBrains*
+
+# Unity package manager cache
+[Pp]ackages/PackagesCache/
+
+# Build pipeline
+/[Bb]uilds*/
+/*.apk
+/*.aab
+/*.unitypackage
+*.app
+*.ipa
+*.xcodeproj
+*.xcworkspace
+
+# Crash reports
+*.dmp
+*.stacktrace
+
+# Collaborate / Plastic SCM
+/.collab/
+/.plastic/
+
+# Generated lighting / baked data
+LightingData.asset
+Lightmap-*.exr
+ReflectionProbe-*.exr
+
+# Addressables
+/ServerData/
+/AssetBundles/
+
+# Packed play mode & device simulator
+Assets/StreamingAssets/aa.meta
+Assets/StreamingAssets/aa/*
+
+# TextMesh Pro generated files
+Assets/TextMesh Pro/Resources/*.asset
+
+# Local configuration
+UserSettings/
+*.local
+*.swp
+*.swo
+*.orig
+
+# Profiling
+*.profiler
+*.diag
+
+# Other IDE / OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
