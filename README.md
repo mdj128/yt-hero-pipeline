@@ -10,7 +10,7 @@ This Unity 3D project accompanies a YouTube tutorial that walks through a full a
    - **AccuRIG** – Auto-rig the generated mesh for quick turnaround and accurate joint placement.
    - **Mixamo** – Optionally refine or retarget animations, and grab additional mocap clips (walk, run, attack, idle, etc.).
 5. **Unity Integration**
-   - Import the rigged character and animation clips into Unity 2022+.
+   - Import the rigged character and animation clips into Unity 6.2 (URP).
    - Configure the Animator Controller layers, masks, and parameters.
    - Drop in the SUPER Character Controller package for third-person movement and camera logic.
    - Extend the controller with an attack state, sword interaction, and animation triggers.
@@ -35,15 +35,15 @@ The tutorial extends **Character Controller SUPER** (`SUPERCharacterAIO`) with a
 - Configure the animator transitions (Any State ➜ Attack ➜ Locomotion) with appropriate exit times and durations to play the full clip.
 
 ## Requirements
-- Unity 2022 LTS (or newer) with the built-in render pipeline.
+- Unity 6.2 (Universal Render Pipeline preset).
 - Git LFS (`git lfs install`) – required for large binary assets tracked in this project.
 - SUPER Character Controller asset (bundled in `Assets/SUPER Character Controller`).
 
 ## Quick Start
 1. Clone the repository and fetch LFS assets:
    ```bash
-   git clone <your-repo-url>
-   cd hero_character
+   git clone https://github.com/mdj128/yt-hero-pipeline
+   cd yt-hero-pipeline
    git lfs install
    git lfs pull
    ```
