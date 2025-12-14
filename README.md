@@ -12,7 +12,7 @@ This Unity 3D project accompanies a YouTube tutorial that walks through a full a
 5. **Unity Integration**
    - Import the rigged character and animation clips into Unity 6.2 (URP).
    - Configure the Animator Controller layers, masks, and parameters.
-   - Drop in the SUPER Character Controller package for third-person movement and camera logic.
+   - Install the SUPER Character Controller package (from the Unity Asset Store) for third-person movement and camera logic.
    - Extend the controller with an attack state, sword interaction, and animation triggers.
 6. **Gameplay Polish**
    - Add props (e.g., sword) and configure inverse kinematics or sockets as needed.
@@ -37,19 +37,25 @@ The tutorial extends **Character Controller SUPER** (`SUPERCharacterAIO`) with a
 ## Requirements
 - Unity 6.2 (Universal Render Pipeline preset).
 - Git LFS (`git lfs install`) – required for large binary assets tracked in this project.
-- SUPER Character Controller asset (bundled in `Assets/SUPER Character Controller`).
+- External Unity Asset Store downloads (not included in this repository):
+  - **Character Controller SUPER** (a.k.a. SUPER Character Controller) – https://assetstore.unity.com/packages/tools/game-toolkits/character-controller-super-135316
+  - **Human Basic Motions FREE** by Kevin Iglesias – https://assetstore.unity.com/packages/3d/animations/humanoids-basic-motions-free-14107
 
 ## Quick Start
-1. Clone the repository and fetch LFS assets:
+1. Grab the external dependencies from the Unity Asset Store (Package Manager ➜ My Assets ➜ Download):
+   - Character Controller SUPER
+   - Human Basic Motions FREE (Kevin Iglesias)
+2. Clone the repository and fetch LFS assets:
    ```bash
    git clone https://github.com/mdj128/yt-hero-pipeline
    cd yt-hero-pipeline
    git lfs install
    git lfs pull
    ```
-2. Open the project in Unity Hub.
-3. Load the main tutorial scene from `Assets/Scenes/` (see YouTube description for the exact path).
-4. Enter Play Mode to test movement, camera control, and the attack animation.
+3. Open the project in Unity Hub.
+4. Once Unity loads, import the two Asset Store packages via Package Manager ➜ My Assets, then reopen the project (Unity will prompt to reload assemblies).
+5. Load the main tutorial scene from `Assets/Scenes/` (see YouTube description for the exact path).
+6. Enter Play Mode to test movement, camera control, and the attack animation.
 
 ## Suggested Tutorial Sections
 Use this README as an outline for the YouTube chapters or blog notes:
@@ -66,4 +72,4 @@ Use this README as an outline for the YouTube chapters or blog notes:
 Feel free to fork and adapt the workflow—pull requests with improvements to the controller, documentation, or tooling are welcome. Please run through the tutorial steps before submitting edits so the pipeline remains reproducible.
 
 ## License
-See the root-level license file or video description for usage terms covering generated art, 3D assets, and the SUPER Character Controller package.
+See the root-level license file or video description for usage terms covering generated art and 3D assets. The third-party Asset Store packages listed above are **not** distributed here; obtain them directly from Unity under their respective licenses.
